@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop of some sort</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="left-nav">
+        <ul>
+          <li><img src="./home.svg" alt="" />Home</li>
+          <li><img src="./compass.svg" alt="" />Shop</li>
+          <li><img class="star" src="./star.svg" alt="" />Featured</li>
+        </ul>
+      </div>
+      <img
+        class="logo"
+        src="./Icon-60_2x.png"
+        alt="the logo of the site... a little triangle tree"
+      />
+      <div class="right-nav">
+        <ul>
+          <li><input type="text" placeholder="Search.." /></li>
+          <li>Log in</li>
+          <li><button class="join-btn">Sign up</button></li>
+        </ul>
+      </div>
+    </header>
+    <section class="cards">
+      <template id="productTemplate">
+        <div class="card">
+          <div class="price">
+            <p>$230</p>
+          </div>
+          <img src="./coffee.jpg" alt="" />
+          <div class="profile-people">
+            <img src="./alion.jpg" alt="" />
+            <p>+9</p>
+          </div>
+        </div>
+      </template>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
